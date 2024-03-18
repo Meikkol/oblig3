@@ -27,8 +27,8 @@ public class PlayingCard {
    * @throws IllegalArgumentException if suit or face have invalid values.
    */
   public PlayingCard(char suit, int face) {
-    if (suit != 'H' && suit != 'D' && suit != 'C' && suit != 'S') {
-      throw new IllegalArgumentException("Parameter suit must be one of H, D, C or S");
+    if (suit != '♥' && suit != '♦' && suit != '♣' && suit != '♠') {
+      throw new IllegalArgumentException("Parameter suit must be one of ♥, ♦, ♣ or ♠");
     }
 
     if (face < 1 || face > 13) {
