@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
-// a
+// klasse som representerer alle kortene
 public class DeckOfCards {
     // Array for å representere fargene i kortstokken
     private final char[] suits = { '♠', '♥', '♦', '♣' };
